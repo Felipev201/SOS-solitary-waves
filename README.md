@@ -37,6 +37,9 @@ meaning that we search a function ***g*** that minimize the following condition
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=g&space;=&space;|\nabla_{A,b}&space;f(A,b)|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g&space;=&space;|\nabla_{A,b}&space;f(A,b)|" title="g = |\nabla_{A,b} f(A,b)|" /></a>
 
+where <a href="https://www.codecogs.com/eqnedit.php?latex=\nabla_{A,b}f(A,b)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\nabla_{A,b}f(A,b)" title="\nabla_{A,b}f(A,b)" /></a> is the gradient of the 
+functional with respect to the parameters ***A*** and ***b***.
+
 SOS was implemented to find the parameters ***A*** and ***b*** that make <a href="https://www.codecogs.com/eqnedit.php?latex=g&space;\rightarrow&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g&space;\rightarrow&space;0" title="g \rightarrow 0" /></a>. Since the function only takes positive values it is a minimization problem. The funtion ***g*** was used as the fitness function of the algorithm.
 
 
